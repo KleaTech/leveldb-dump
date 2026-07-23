@@ -1,0 +1,19 @@
+{
+  "name": "leveldb-reader",
+  "version": "1.0.0",
+  "description": "CLI tool to read LevelDB files or directories",
+  "main": "index.js",
+  "bin": {
+    "leveldb-reader": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "level": "^10.0.0"
+  },
+  "devDependencies": {},
+  "keywords": ["leveldb", "cli", "database"],
+  "author": "",
+  "license": "MIT"
+}
